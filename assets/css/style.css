@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+h1 {
+    text-align: center;
+    font-family: "Audiowide", cursive;
+    font-size: 450%;
+}
+
+body {
+    background-image: url("../img/dulcey-lima-FhcJZTGO79s-unsplash.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+
+/*--box--*/
+.cambio {
+    font-size: x-large;
+}
+
+.moneda {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moneda select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid;
+    font-size: 16px;
+    font-family: "Audiowide", cursive;
+    width: 100%;
+    max-width: 200px;
+}
+
+.moneda input {
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+    width: 100%;
+    max-width: 200px;
+}
+
+.taza-cambio-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caja {
+    background-color: beige;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    border-color: #6c63ff;
+    
+
+}
+
+/*--Titulo 3d--*/
+.rise {
+    text-shadow: -0.01em -0.01em 0.01em #000;
+    animation: rise 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes rise {
+    to {
+        text-shadow: 0em 0.01em #ff5, 0em 0.02em #ff5, 0em 0.02em 0.03em #ff5,
+            -0.01em 0.01em #333, -0.02em 0.02em #333, -0.03em 0.03em #333,
+            -0.04em 0.04em #333, -0.01em -0.01em 0.03em #000, -0.02em -0.02em 0.03em #000,
+            -0.03em -0.03em 0.03em #000;
+        transform: translateY(-0.025em) translateX(0.04em);
+    }
+}
+
+.outline {
+    background-clip: text;
+    color: #ffdd40;
+    animation: outline 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes outline {
+    from {
+        text-shadow: 0em -7em 10em #fff;
+    }
+
+    to {
+        text-shadow: 0 0.02em #fff, 0.02em 0 #fff, -0.02em 0 #fff, 0 -0.02em #fff;
+    }
+}
+
+
+/*--btn--*/
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6c63ff;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #5248e3;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    
+}
+
+.btn-primary {
+    background-color: #6c63ff;
+}
+
+.btn-primary:hover {
+    background-color: #5248e3;
+}
+
+.btn-secondary {
+    background-color: #ccc;
+    color: #333;
+}
+
