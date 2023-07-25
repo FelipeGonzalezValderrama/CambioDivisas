@@ -18,6 +18,7 @@ body {
 /*--box--*/
 .cambio {
     font-size: x-large;
+    font-weight: bold;
 }
 
 .moneda {
@@ -56,6 +57,7 @@ body {
     max-width: 500px;
     border-radius: 10px;
     border-color: #6c63ff;
+    background-image: url('../img/marmolMoneda.jpg');
     
 
 }
